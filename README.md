@@ -1,6 +1,6 @@
 # Ansible Role: Python
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-python.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-python)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-python.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-python)
 
 Installs python and global python packages.
 
@@ -22,13 +22,13 @@ Global PIP packages you would like to make sure are installed.
 
 ## Dependencies
 
-  - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
+  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: kadaan.python, python_execute: true }
+        - { role: engboilers.python, python_execute: true }
 
 ## License
 
