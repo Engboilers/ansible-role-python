@@ -22,13 +22,13 @@ Global PIP packages you would like to make sure are installed.
 
 ## Dependencies
 
-  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
+  - [Engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: engboilers.python, python_execute: true }
+        - { role: Engboilers.python, python_execute: true }
 
 ## License
 
